@@ -1,0 +1,9 @@
+# Backend for the Lit Windows UI (main.py + NYC_house.pkl)
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+pandas>=2.0
+numpy>=1.26
+joblib>=1.3
+# NYC_house.pkl was saved with scikit-learn 1.9.1. Keep the same version so the model loads cleanly.
+scikit-learn==1.9.1
