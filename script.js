@@ -6,7 +6,7 @@
   "use strict";
 
   /* ---------- Config ---------- */
-  const DEFAULT_API = "http://127.0.0.1:2100";
+  const DEFAULT_API = "https://nyc-airbnb-room-type-predictor-ftf2.onrender.com";
   // The model's classes_ are alphabetical, and /predict returns probabilities in this order.
   const CLASSES = [
     { name: "Entire home/apt", color: "#ffc36b" },
